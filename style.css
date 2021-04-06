@@ -1,0 +1,87 @@
+p {
+    font-size: large;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 8px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+}
+
+.icon-list li a,
+.right-items ul li a {
+    color: white;
+}
+
+.right-items {
+    display: flex;
+    align-items: center;
+}
+
+.slider-sec {
+    background: url('slider.jpg');
+}
+
+.department-contents li a {
+    display: block;
+    margin: 10px 0px;
+}
+
+.latest-news-item {
+    display: flex;
+}
+
+.latest-news-item div {
+    display: block;
+    margin: 10px;
+}
+
+.date {
+    font-size: 10px;
+}
+
+.contact-us-item {
+    display: flex;
+}
+
+.contact-us-item div {
+    display: block;
+    margin: 6px;
+}
+
+.address {
+    font-size: 12px;
+}
+
+.slider-sec {
+    background-image: url("./vitamin.png");
+}
+
+.card {
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+section.slider-sec {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section {
+    padding: 50px 0;
+}
